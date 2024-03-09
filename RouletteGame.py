@@ -27,7 +27,7 @@ class Game:
 
             # Spin the roulette wheel.
             results = Game.spinRoulette()
-            print(f"\nThe roulette wheel spins... and lands on {result}!")
+            print(f"\nThe roulette wheel spins... and lands on {results}!")
             # Parse the user's bet
             userBet = Game.getUserBet()
 
