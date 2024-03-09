@@ -45,6 +45,7 @@ class Game:
 class Welcome:
     def welcomeMessage():
         print("[" + Fore.GREEN + "LOADED" + Fore.WHITE + "] Game loaded. Welcome to RouletteGame!")
-        Game.play_roulette()
+        if __name__ == "__main__":
+            Game.play_roulette()
 
 Welcome.welcomeMessage()
