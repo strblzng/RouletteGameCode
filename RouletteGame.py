@@ -1,3 +1,8 @@
 # RouletteGame Code
+import colorama
+import os
+import sys
+import time
 
-print("Downloaded xd")
+
+os.system("cls" or "clear")
